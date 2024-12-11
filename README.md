@@ -11,18 +11,18 @@ This project is a Smart Login System that enables users to sign up, log in, and 
 
 ## Features
 
-- **FontAwesome Icons**: Integrated FontAwesome for visually appealing icons in the forms.
-- **User Authentication Logic**:
-     --Sign-up and login functionalities with validation.
-     --A welcome page that greets users after successful login.
-- **Validation**: Real-time client-side validation for all input fields, including
-     --Username
-     --Email
-     --Password 
-     --Confirm Password 
-- **Error and Success Handling**:
-       --Clear error messages for invalid input.
-       --Success notifications for valid form submissions.
+1. **FontAwesome Icons**: Integrated FontAwesome for visually appealing icons in the forms.
+2. **User Authentication Logic**:
+     - Sign-up and login functionalities with validation.
+     - A welcome page that greets users after successful login.
+3. **Validation**: Real-time client-side validation for all input fields, including
+     - Username
+     - Email
+     - Password 
+     - Confirm Password 
+4. **Error and Success Handling**:
+       - Clear error messages for invalid input.
+       - Success notifications for valid form submissions.
 
 
 
