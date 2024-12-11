@@ -21,8 +21,8 @@ This project is a Smart Login System that enables users to sign up, log in, and 
      - Password 
      - Confirm Password 
 4. **Error and Success Handling**:
-       - Clear error messages for invalid input.
-       - Success notifications for valid form submissions.
+     - Clear error messages for invalid input.
+     - Success notifications for valid form submissions.
 
 
 
