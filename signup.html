@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="./assets/user-login-icon-26.jpg">
+
+    <!-- Strat Font Awsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Start Bootstrap css--> 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Start Our Css-->
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+
+    <main>
+        <div class="position-relative start-50 top-50 translate-middle rounded-2 shadow h-75 w-75 overflow-hidden">
+
+            <!-- Start Left Box-->
+             <div class="leftBox position-absolute start-0 top-0 w-50 h-100 text-white">
+                <div class="content w-100 d-flex justify-content-center align-items-center flex-column text-center h-100  text-capitalize p-3">
+                    <span>Welcome To</span>
+                    <div class="imgae my-3">
+                        <img src="./assets/unnamed.png" class="w-25 rounded-circle" alt="logo">
+                    </div>
+                    <h1 class="h3 mb-3">our smart login system</h1>
+                    <p class="mt-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quos voluptate? Quaerat molestiae ipsam necessitatibus.
+                    </p>
+                </div>
+             </div>
+             
+             <!-- Start Right Box -->
+              <div class="rightBox position-absolute end-0 top-0 w-50 h-100 bg-white">
+                <div class="contentTwo w-100 d-flex justify-content-center align-items-center flex-column text-capitalize p-3">
+                    <h2 class="mt-4">SIGN UP</h2>
+                    <p>create your account. it's free and only takes a minute</p>
+
+                    <div class="inputs w-100 text-center mt-2">
+                        <div class="form-floating mb-3 w-75 m-auto border-bottom border-1 border-black inputDiv">
+                            <input id="name" type="text" class="form-control border-0 bg-transparent shadow-none" placeholder="" autocomplete="off">
+                            <label for="name">enter your name</label>
+                        </div>
+
+                        <div class="form-floating mb-3 w-75 m-auto border-bottom border-1 border-black inputDiv">
+                            <input id="email" type="email" class="form-control border-0 bg-transparent shadow-none" placeholder="" autocomplete="off">
+                            <label for="email">enter your email</label>
+                        </div>
+
+                        <div class="form-floating mb-3  w-75 m-auto border-bottom border-1 border-black inputDiv passInput">
+                            <input id="password" type="password" class="form-control border-0 bg-transparent shadow-none" placeholder="" autocomplete="off">
+                            <label for="password">enter your password</label>
+                        </div>
+
+                        <div class="form-floating mb-3  w-75 m-auto border-bottom border-1 border-black inputDiv passInput">
+                            <input id="confirmPassword" type="password" class="form-control border-0 bg-transparent shadow-none" placeholder="" autocomplete="off">
+                            <label for="confirmPassword">Confirm Your Password</label>
+                        </div>
+
+                        <p class="alert alert-danger d-none w-75 m-auto" id="emailExistsAlert">
+
+                        </p>
+
+                        <button class="btn loginBtn w-75" id="signUp">Sign Up</button>
+
+                        <p class="mt-3">You have an account? 
+                            <a href="https://ahmed-abo-rafat.github.io/login/index.html" class="signUpAnchor">sign in</a>
+                        </p>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </main>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(90deg ,#518ddb,#37579c);
+    overflow: hidden;
+}
+
+.loginBtn {
+    border: 1PX solid;
+}
+
+button:hover{
+    background-color: #518ddb !important;
+    color: #fff !important;
+}
